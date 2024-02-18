@@ -1,0 +1,565 @@
+html{
+    background-image: linear-gradient(45deg, rgba(100, 100, 100, 0.8) 55%,rgb(200, 200, 200, 0.85)), url("./Hinh/BR3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: black;
+    background-color: #ffffff;
+    text-rendering: optimizeLegibility;
+}
+
+*{
+    
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+/* ---------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+
+header{
+    float: left;
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    /* background-image: none; */
+    /* border: 1px solid red; */
+}
+
+.menu{
+    float: left;
+    width: 90%;
+    height: 50px;
+    margin-top: 7%;
+    margin-left: 5%;
+    background-color: black;
+    border: 1px solid white;
+}
+
+.hanghoa{
+    float: left;
+    width: 90%;
+    height: 1240px;
+    margin-top: 2%;
+    margin-left: 5%;
+    background-color: white;
+    /* border: 1px solid red; */
+}
+
+.hangbanchay{
+    float: left;
+    width: 90%;
+    height: 350px;
+    margin-top: 2%;
+    margin-left: 5%;
+    background-color: white;
+    /* border: 1px solid red; */
+}
+
+.thongtin{
+    float: left;
+    width: 45%;
+    height: 400px;
+    margin-top: 2%;
+    margin-left: 5%;
+    /* border: 1px solid blue; */
+}
+.lienhe{
+    float: left;
+    width: 45%;
+    height: 400px;
+    margin-top: 2%;
+    /* border: 1px solid blue; */
+}
+
+footer{
+    float: left;
+    width: 100%;
+    height: 6%;
+    margin-top: 2%;
+    text-align: center;
+    background-color: #494949;
+    color: white;
+    padding: 10px;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* Header---------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+
+.logo{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-top: 0.5%;
+    margin-left: 0.5%;
+    border-radius: 50%;
+    /* border: 1px solid red; */
+}
+
+.timkiem{
+    float: left;
+    width: 600px;
+    height: 40px;
+    margin-top: 1%;
+    margin-left: 10%;
+    /* border: 1px solid red; */
+}
+
+.timkiem input{
+    height: 100%;
+}
+
+.btntimkiem {
+    float: left;
+    
+}
+
+.btntimkiem input{
+    width: 50px;
+    height: 40px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    /* padding: 15px 30px; */
+    display: inline-block;
+    text-align: center;
+    border: 1px solid white;
+    transition: all .3s;
+}
+
+.txttimkiem{
+    float: left;
+}
+
+.txttimkiem input{
+    width: 550px;
+    height: 40px;
+}
+
+.giohang{
+    float: left;
+    width: 70px;
+    height: 40px;
+    margin-top: 1%;
+    margin-left: 1%;
+    padding: 5px 10px;
+    /* background-color: white; */
+    /* border: 1px solid red; */
+}
+
+.giohang img{
+    width: 50px;
+    height: 30px;
+}
+
+.giohang:hover,
+.giohang:active{
+    /* background-color: white; */
+    background-color: rgb(100, 100, 100);
+    border: 1px solid white;
+}
+
+.danhsachtrang{
+    float: right;
+    width: 380px;
+    height: 50%;
+    margin-left: 4%;
+    margin-top: 1.5%;
+    /* border: 1px solid red; */
+}
+
+.danhsachtrang a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    /* margin-top: 1%; */
+    font-size: 100%;
+    font-weight: 700;
+    transition: all 0.5s;
+    /* padding: 5px 0; */
+}
+
+.danhsachtrang a:hover,
+.danhsachtrang a:active{
+    color: rgb(0, 100, 255);
+    border-bottom: 2px solid rgb(0, 100, 255);
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* Menu------------------------------------------------------------------------------------------------ */
+/* ---------------------------------------------------------------------------------------------------- */
+
+.menu div{
+    float: left;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    padding: 0.5% 0%;
+    background-color: black;
+    transition: all 0.5s;
+}
+
+.menu div a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+}
+
+.menu div:hover,
+.menu div:active,
+.menu div a:hover,
+.menu div a:active{
+    color: rgb(0, 100, 255);
+    background-color: rgb(100, 100, 100);
+}
+
+.menu{
+    list-style: none;
+}
+
+.menu li a{
+    display: block;
+    line-height: 40px;
+    text-decoration: none;
+    padding-bottom: 8px;
+    color: white;
+}
+
+.menu li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
+
+.menu li:hover{
+    background-color: rgb(100, 100, 100);
+    border: 1px solid white;
+}
+
+.menu li:hover>.menucon{
+    display: block;
+}
+
+.menucon{
+    list-style: none;
+    width: 300px;
+    position: absolute;
+    background-color: black;
+    display: none;
+}
+
+.menucon li{
+    width: 300px;
+    border: 1px solid white;
+}
+
+.menucon li a{
+    display: block;
+    line-height: 30px;
+    text-decoration: none;
+    color: white;
+}
+/* ---------------------------------------------------------------------------------------------------- */
+/* Hang hoa-------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+
+.hanghoa .tenbang{
+    float: left;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    padding: 1% 1%;
+    background-color: black;
+}
+
+.hanghoa .tenbang p{
+    font-size: 170%;
+    font-weight: 700;
+    color: white;
+}
+
+.hanghoa .nhaccu{
+    width: 90%;
+    height: 1170px;
+    margin-left: 5%;
+    /* background-color: blueviolet; */
+}
+
+.hanghoa .machang{
+    float: left;
+    text-align: center;
+    width: 17.5%;
+    height: 250px;
+    margin-top: 2%;
+    margin-left: 2%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(100, 100, 100);
+    border: 1px solid rgb(100, 100, 100);
+}
+
+.hanghoa .machang img{
+    width: 100%;
+    height: 170px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* background-color: cyan; */
+}
+
+.hanghoa .machang a{
+    text-decoration: none;
+    /* margin-top: 50px; */
+}
+
+.chuyentrang{
+    float: left;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    text-align: center;
+}
+
+.chuyentrang a{
+    text-decoration: none;
+    color: rgb(0, 0, 100);
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    margin-top: 1.5%;
+    display: inline-block;
+    text-align: center;
+    transition: all .3s;
+    border: 1px solid white;
+    transition: all 0.2s;
+}
+
+.dauds{
+    width: 60px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.cuoids{
+    width: 60px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.truocsauds{
+    width: 60px;
+}
+
+.chuyentrang a:hover,
+.chuyentrang a:active{
+    color: rgb(0, 0, 255);
+}
+/* ---------------------------------------------------------------------------------------------------- */
+/* Hang ban chay--------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+
+.hangbanchay .tenbang{
+    float: left;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    padding: 1% 1%;
+    background-color: black;
+}
+
+.hangbanchay .tenbang p{
+    font-size: 170%;
+    font-weight: 700;
+    color: white;
+}
+
+.hangbanchay .nhaccu{
+    width: 90%;
+    height: 350px;
+    margin-left: 5%;
+    /* background-color: blueviolet; */
+}
+
+.hangbanchay .machang{
+    float: left;
+    text-align: center;
+    width: 17.5%;
+    height: 250px;
+    margin-top: 2%;
+    margin-left: 2%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(100, 100, 100);
+    border: 1px solid rgb(100, 100, 100);
+}
+
+.hangbanchay .machang img{
+    width: 100%;
+    height: 170px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* background-color: cyan; */
+}
+
+.hangbanchay .machang a{
+    text-decoration: none;
+    /* margin-top: 50px; */
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* Thong tin cua hang---------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+
+.diachi{
+    float: left;
+    margin-left: 15%;
+}
+
+.diachi i{
+    font-size: 120%;
+}
+
+.information{
+    list-style: none;
+    color: white;
+    line-height: 200%;
+    margin-top: 70px;
+    word-spacing: 1px;
+}
+
+.DiaChi-box li{
+    float: none;
+}
+
+.information .small-icon{
+    color: white;
+}
+
+.information .small-icon:hover,
+.information .small-icon:active{
+    transform: scale(1.3);
+    transition: all .3s;
+}
+
+.social-icon{
+    margin-top: 50px;
+    list-style: none;
+}
+
+.social-icon li{
+    display: inline-block;
+    font-size: 250%;
+    margin-left: 20px;
+    color: rgb(200, 200, 200);
+}
+
+.social-icon li i{
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.social-icon li i:hover,
+.social-icon li .small-icon:active{
+    transform: scale(1.3);
+    color: white;
+}
+
+/* ---------------------------------------------------- */
+
+.lienhe form{
+    background-color: rgba(0, 0, 0, .3);
+    margin-left: 5%;
+    margin-top: 30px;
+    width: 480px;
+    padding: 20px;
+
+}
+
+.lienhe input, .lienhe textarea{
+    outline: none;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, .5);
+    border: 1px solid rgba(0, 0, 0, .2);
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.lienhe textarea{
+    resize: none;
+}
+
+.lienhe label{
+    font-size: 150%;
+    color: white;
+}
+
+.lienhe li{
+    list-style: none;
+    float: none;
+}
+
+.input-Ten{
+    color: white;
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.input-Gmail{
+    color: white;
+    width: 300px;
+    margin-left: 38px;
+    margin-top: 20px;
+}
+
+.textarea-GopY{
+    color: white;
+    width: 300px;
+    height: 80px;
+    margin-left: 38px;
+    margin-top: 20px;
+}
+
+.lienhe input[type=text]:focus, textarea[type=text]:focus{
+    color: white;
+    background-color: rgba(194, 202, 208, .3);
+    transition: all .3s;
+}
+
+.lienhe .btn{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 15px 30px;
+    text-align: center;
+    transition: all .3s;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 105px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.lienhe .btn:hover,
+.lienhe .btn:active{
+    background-color: rgb(100, 100, 100);
+}
+
+.label-khoangcach-ten{
+    margin-right: 22px;
+}
+/* ---------------------------------------------------------------------------------------------------- */
+/* Footer---------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+

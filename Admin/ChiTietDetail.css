@@ -1,0 +1,219 @@
+html{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: #5a5a5a;
+    background-color: #ffffff;
+    text-rendering: optimizeLegibility;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.btn{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin: 0 5px;
+    width: 190px;
+    display: inline-block;
+    text-align: center;
+    transition: all .3s;
+    border: 2px solid white;
+}
+
+.btn:hover,
+.btn:active{
+    background-color: rgb(50, 50, 50);
+}
+
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------dong dau--------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------- */
+
+.dau{
+    float: left;
+    width: 100%;
+    height: 10%;
+    padding: 6px;
+    background-color: black;
+    /* border: 1px solid red; */
+}
+
+.menu{
+    float: left;
+    width: 10%;
+    height: 90%;
+    background-color: black;
+    /* border: 1px solid red; */
+}
+
+.tentrang{
+    float: left;
+    width: 90%;
+    height: 10%;
+    background-color: white;
+    /* border: 1px solid red; */
+}
+
+.thaotac{
+    float: left;
+    width: 90%;
+    height: 10%;
+    background-color: rgb(200, 200, 200);
+    padding-left: 30%;
+    /* border: 1px solid red; */
+}
+
+.lbthongtin{
+    float: left;
+    width: 15%;
+    height: 60%;
+    padding: 2% 2%;
+    /* background-color: burlywood; */
+    border: 1px solid red;
+}
+.txtthongtin{
+    float: left;
+    width: 25%;
+    height: 60%;
+    padding: 2% 2%;
+    /* background-color: cyan; */
+    border: 1px solid red;
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------dong dau--------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------- */
+
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 0px;
+    border-radius: 50%;
+}
+
+.dongdau{
+    float: right;
+    list-style: none;
+    margin-top: 15px;
+}
+
+.dongdau li{
+    display: inline-block;
+    margin-right: 30px;
+}
+.dongdau li a{
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+    font-weight: 700;
+    transition: all 0.5s;
+    padding: 5px 0;
+}
+
+.dongdau li a:hover,
+.dongdau li a:active{
+    color: rgb(0, 100, 255);
+    border-bottom: 2px solid rgb(0, 100, 255);
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------menu--------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------- */
+
+.menu div{
+    width: 137px;
+    padding: 15% 0px;
+    height: 10%;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+    font-weight: 700;
+    transition: all 0.5s;
+    padding: 0px 5%;
+}
+
+.menu li div:hover,
+.menu li div:active{
+    background-color: rgb(50, 50, 50);
+    /* color: rgb(0, 255, 255); */
+    
+}
+
+.menu li div a:hover,
+.menu li div a:active{
+    color: rgb(0, 100, 255);
+}
+
+.trangdangdung{
+    background-color: rgb(100, 100, 100);
+    /* color: black; */
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------ten trang--------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------- */
+
+.tentrang p{
+    font-size: 200%;
+    color: black;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------thao tac--------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------- */
+
+.thaotac a{
+    float: left;
+    text-decoration: none;
+    color: white;
+}
+
+.thaotac .btn{
+    margin-top: 0.5%;
+    margin-left: 2%;
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------thong tin--------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------- */
+
+.lbthongtin p{
+    font-size: 120%;
+    color: black;
+    margin-bottom: 25px;
+}
+
+.txtthongtin input{
+    color: black;
+    width: 100%;
+    height: 25px;
+    margin-bottom: 20px;
+    border: 1px solid red;
+}
+
+.txtthongtin img{
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+}

@@ -1,0 +1,108 @@
+html{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: #5a5a5a;
+    background-color: #ffffff;
+    text-rendering: optimizeLegibility;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.dau{
+    float: left;
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    background-color: black;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 0px;
+    border-radius: 50%;
+}
+
+.dongdau{
+    float: right;
+    list-style: none;
+    margin-top: 15px;
+}
+
+.dongdau li{
+    display: inline-block;
+    margin-right: 30px;
+}
+.dongdau li a{
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+    font-weight: 700;
+    transition: all 0.5s;
+    padding: 5px 0;
+}
+
+.dongdau li a:hover,
+.dongdau li a:active{
+    color: rgb(0, 100, 255);
+    border-bottom: 2px solid rgb(0, 100, 255);
+}
+
+.menu{
+    float: left;
+    width: 165px;
+    height: 100%;
+    background-color: black;
+}
+
+.menu div{
+    width: 165px;
+    padding: 20px 0px;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+    font-weight: 700;
+    transition: all 0.5s;
+    padding: 15px 29px;
+}
+
+.menu li div:hover,
+.menu li div:active{
+    background-color: rgb(50, 50, 50);
+    /* font-size: 103%; */
+    /* color: rgb(0, 255, 255); */
+    
+}
+
+.menu li div a:hover,
+.menu li div a:active{
+    color: rgb(0, 100, 255);
+}
+
+.PhanChinhGiua{
+    float: left;
+}
+
+.PhanChinhGiua img{
+    width: 600px;
+    height: 600px;
+    margin-left: 300px;
+}

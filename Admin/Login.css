@@ -1,0 +1,92 @@
+html{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #5a5a5a;
+    background-color: #ffffff;
+    text-rendering: optimizeLegibility;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.nen{
+    background-color: rgb(235, 235, 235);
+    height: 100%;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+    margin-left: 550px;
+    margin-top: 50px;
+    border-radius: 50%;
+    border: 1px solid rgb(150, 150, 150);
+}
+
+.dang-nhap{
+    background-color: white;/*rgb(150, 150, 150);*/
+    margin-left: 500px;
+    margin-top: 20px;
+    width: 300px;
+    height: 250px;
+    float: none;
+    color: rgb(71, 75, 79);
+    border: 1px solid rgb(150, 150, 150);
+}
+
+.dang-nhap p,.text-box{
+    margin-bottom: 0px;
+    margin-left: 50px;
+}
+
+.dang-nhap p{
+    font-size: 15px;
+    margin-top: 10px;
+    color: rgb(71, 75, 79);
+}
+
+.text-box{
+    border: 2px solid rgb(150, 150, 150);
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.btn{
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: black;
+    padding: 15px 30px;
+    border-radius: 20px;
+    margin: 20 50px;
+    width: 190px;
+    display: inline-block;
+    text-align: center;
+    transition: all .3s;
+}
+
+.btn:hover,
+.btn:active{
+    background-color: rgb(50, 50, 50);
+}
+
+.cuahang{
+    margin-left: 550px;
+    margin-top: 10px;
+}
+
+.cuahang a{
+    text-decoration: none;
+    color: rgb(71, 75, 79);
+    font-size: 70%;
+    transition: all 0.5s;
+}
+
+.cuahang a:hover,
+.cuahang a:active{
+    color: rgb(50, 50, 255);
+    font-size: 80%;
+}
